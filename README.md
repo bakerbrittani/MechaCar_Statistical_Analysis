@@ -38,8 +38,24 @@ The p-value is 0.6072, greater than 0.05 significance level.
 The p-value is 0.04168, less than 0.05 significance level. As shown in the previous deliverable, lot 3 does not fit the standard and should not be considered comparable to lots 1 or 2. Further research and data analysis would be required to determine why this mean differs from the standard population mean.
 
 ## Study Design: MechaCar vs Competition
+In order to determine how MechaCar inventory performs compared to the competing companies, comparison of relevant variables is needed. The breakdown needs to be clear and concise for the average consumer/car-buyer to interpret the results. 
 
 What metric or metrics are you going to test?
+Comparing the following metrics would be valuable for potential car-buyers:
+  
+  Overall purchase price
+  Fuel-efficiency
+  Maintenance cost
+  Average cost of car insurance for this make/model
+
+We want to use multiple variables (fuel effeciency, maintenance cost, and avg cost of insurance) to predict overall purchase price. 
+
 What is the null hypothesis or alternative hypothesis?
+Null: There is no statistical difference between MechaCar overall purchase price and their competitor's overall purchase price. 
+Alternative: There is statistical difference between MechaCar and competitors when it comes to overall purchase price.
+
 What statistical test would you use to test the hypothesis? And why?
+Multiple Linear Regression would be the most relevant test to use, because we're comparing multiple variables. 
+
 What data is needed to run the statistical test?
+All variables listed above are needed as data points from MechaCar and it's competitors. In order to hold greater statistical validity, we would want as large of a data set as possible. We might want to consider limiting data with factors such as domestic vs. foreign cars to avoid unseen variables such as import costs that we are not including as variables in our regression.  
