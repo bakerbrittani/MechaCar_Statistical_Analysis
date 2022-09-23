@@ -25,6 +25,18 @@ Total variance less than 100 (rounding down to 62) is acceptable. Lots 1 & 2 are
 
 ## T-Tests on Suspension Coils
 
+![all](/t.test_all_lots.png)
+The p-value is 0.06028, greater than 0.05 significance level. 
+
+![lot1](/t.test_lot1.png)
+The p-value is 1, greater than 0.05 significance level.
+
+![lot2](/t.test_lot2.png)
+The p-value is 0.6072, greater than 0.05 significance level. 
+
+![lot3](/t.test_lot3.png)
+The p-value is 0.04168, less than 0.05 significance level. As shown in the previous deliverable, lot 3 does not fit the standard and should not be considered comparable to lots 1 or 2. Further research and data analysis would be required to determine why this mean differs from the standard population mean.
+
 ## Study Design: MechaCar vs Competition
 
 What metric or metrics are you going to test?
