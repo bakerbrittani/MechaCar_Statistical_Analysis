@@ -16,8 +16,12 @@ Yes. The r-squared value of 0.7149 indicates that we are approx. 72% confident t
 
 ## Summary Statistics on Suspension Coils
 
-Does the current manufacturing data meet the design specification that the variance of the suspension coils must not exceed 100 pounds per square inch for all manufacturing lots in total and each lot individually? Why or why not?
+![insertphoto](/deliv2_tt_summary.png)
 
+![insertphoto](/deliv2_lot_summary.png)
+
+Does the current manufacturing data meet the design specification that the variance of the suspension coils must not exceed 100 pounds per square inch for all manufacturing lots in total and each lot individually? Why or why not?
+Total variance less than 100 (rounding down to 62) is acceptable. Lots 1 & 2 are also well below the variance limit of 100psi, however Lot 3 exceeds, at 170 so it does not meet the design specs. 
 
 ## T-Tests on Suspension Coils
 
